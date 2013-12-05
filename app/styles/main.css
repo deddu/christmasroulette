@@ -1,23 +1,36 @@
-body {
-    background: #fafafa;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #333;
+@import url(http://fonts.googleapis.com/css?family=Gorditas:700|Mr+Bedfort);
+
+body{
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
 }
 .shoplist{
     padding: 20px;
 }
-.container{
-    margin-top: 20%;
+.appcontainer{
+    margin: 10%;
+    padding: 10%;
     text-align: center;
 }
-/*.arrow-right:after {*/
-    /*content: "";*/
-    /*width: 0;*/
-    /*height: 0;*/
-    /*margin-right: -10px ;*/
-    /*box-shadow: 0px 1px 0px white;*/
-    /*z-index: 10;*/
-    /*border-top: 16px solid transparent;*/
-    /*border-bottom: 16px solid transparent;*/
-    /*border-left: 17px solid #007ba1;*/
-/*}*/
+.appcontainer header{
+    font-family: 'Gorditas', Garamond, Times New Roman, Times, serif;
+    color: white;
+    text-shadow: 1px 1px 1px darkred;
+    font-size: 4em;
+    padding-bottom: 3%;
+}
+p {
+    font-family: 'Mr Bedfort',cursive;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px black;
+    font-size: 2em;
+    font-weight: bold;
+}
+.shoplist-header{
+    margin-left: 10%;
+}
+footer{
+    font-size: 12px;
+    text-align: center;
+    color: blanchedalmond;
+}
